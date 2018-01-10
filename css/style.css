@@ -1,0 +1,853 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+* {
+
+  margin: 0;
+  padding:0;
+}
+
+main {
+  background-color: #484848;
+}
+
+body .smooth {
+  display: block;
+  position: relative;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+/* CSS til menu og logo **/
+header {
+    position: fixed;
+    z-index: 100;
+    background-color: #667d7a;
+    width: 100%;
+}
+
+header img {
+  padding-right: 50px;
+  display: block;
+  position: relative;
+  float: right;
+}
+
+p {
+  margin: 0 auto;
+  color: black;
+  font-size: 18px;
+  padding: 15px;
+}
+
+.desktopmenu {
+  display: none;
+}
+
+.arrow {
+  display: block;
+  width: 100%;
+  height: 80px;
+  color: black;
+}
+/******************************* Side skift ******************************/
+
+.split {
+  position:relative;
+  display: block;
+  width: 100%;
+  height: 60px;
+  background-color: #929695;
+  text-align: center;
+
+}
+
+.split1 {
+  position:relative;
+  display: block;
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  text-align: center;
+
+}
+
+.split3 {
+  position:relative;
+  display: block;
+  width: 100%;
+  height: 60px;
+  background-color: #f0e6e1;
+  text-align: center;
+
+}
+
+.farve2 {
+  font-size: 35px;
+  padding-top: 20px;
+  position:relative;
+  display: block;
+  margin: 0 auto;
+  width: 78px;
+  height: 40px;
+  background-color: #f0e6e1;
+  text-align: center;
+  border-top-left-radius: 50px 50px;
+  border-top-right-radius: 50px 50px;
+}
+
+.farve3{
+
+  color: #f0e6e1;
+  font-size: 35px;
+  padding-top: 20px;
+  position:relative;
+  display: block;
+  margin: 0 auto;
+  width: 78px;
+  height: 40px;
+  background-color: #929695;
+  text-align: center;
+  border-top-left-radius: 50px 50px;
+  border-top-right-radius: 50px 50px;
+
+}
+
+.fa-angle-down {
+  color: white;
+  font-size: 35px;
+  position:relative;
+  display: block;
+  margin: 0 auto;
+  width: 78px;
+  height: 40px;
+  text-align: center;
+
+}
+
+/*********** SLUUUUT arrow *********************/
+
+/** footer css */
+footer {
+  color: #f0e6e1;
+  z-index: 4;
+  background-color: #484848;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+}
+
+footer p {
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 50px;
+  color: white;
+}
+
+/* Google maps kort */
+.map {
+  width: 100%;
+  height: 42vh;
+  box-shadow: 0px 3px 15px -3px rgba(0,0,0,0.75);
+}
+
+.mobilvideo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+
+/** Sidernes farver **/
+
+#page1 {
+  padding-top: 78px;
+  display: block;
+  width: 100%;
+  height: 82vh;
+  background-image: url('../img/gi-loop.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+#page1 img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#page1 h1 {
+  top: 30%;
+  text-align: center;
+  font-size: 40px;
+  width: 100%;
+  display: block;
+  position: absolute;
+}
+
+#page1 object {
+  top: 50%;
+  width:  100%;
+  z-index: 3;
+  position: absolute;
+  display: block;
+  margin: 0 auto;
+
+}
+
+i.fa-play-circle-o {
+  text-align: center;
+  display: block;
+  font-size: 80px;
+  color: white;
+
+
+}
+
+video {
+  display: none;
+}
+
+#page2 {
+  padding-top: 78px;
+  display: block;
+  width: 100%;
+  height: 1200px;
+  background-color: #929695;
+}
+
+#page2 h1{
+  color: black;
+}
+
+
+.knap {
+  margin: 40px auto;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  width: 80px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  color: #667d7a;
+  background-color: #f0e6e1;
+}
+
+
+figure img {
+  height: auto;
+  width: 100%;
+}
+
+section {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  padding-top: 40px
+
+}
+
+
+section div {
+  margin: 0 auto 40px;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+/* overskrift CSS */
+h1 {
+  letter-spacing: 6px;
+  font-family: 'Fjalla One', helvetica;
+  padding-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f0e6e1;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px
+}
+
+#page3 {
+  padding-top: 78px;
+  display: block;
+  width: 100%;
+  background-color: #f0e6e1;
+}
+/* hvis det bugger er det Martins skyld */
+.mangomartin {
+  width: 100%;
+  height: auto;
+}
+
+.mangomartin h3 {
+  text-transform: uppercase;
+  font-family: 'Fjalla One', serif;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.desktop {
+  height: auto;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+article {
+  display: block;
+  width: 100%;
+}
+
+.info1 {
+  padding-top: 110px;
+  height: 100%;
+  background-color: #929695;
+}
+
+.info1 div {
+      border-radius: 50%;
+      margin: 0 auto 40px;
+      border: 1px solid #f0e6e1;
+}
+
+.info1 img {
+  padding-bottom: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+.info1 p {
+  color: #f0e6e1;
+}
+
+.info2 {
+  height: 100%;
+  background-color: #f0e6e1;
+
+}
+
+.info2 img {
+  padding-bottom: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+.info2 p {
+  color: #929695;
+}
+
+.info2 h1 {
+  color: #929695;
+}
+
+.info2 div {
+      border: 1px solid #929695;
+}
+
+.info2 section .knap {
+  color: #f0e6e1;
+  background-color: #929695;
+}
+
+/* alt under her er smuk kode */
+
+
+#page4 {
+  padding-top: 78px;/** Padding fordi ellers vil toppen af <iframe> ikke være synlig **/
+  display: block;
+  width: 100%;
+  background-color: #929695; /* #DBD0BD; */
+
+}
+
+
+aside {
+  display: none;
+}
+
+object {
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+i.fa-instagram {
+
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #667d7a;
+  font-size: 30px;
+  border-radius: 50%;
+  background-color: #f0e6e1;
+  margin: 5px;
+}
+
+i.fa-facebook {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #667d7a;
+  font-size: 30px;
+  border-radius: 50%;
+  background-color: #f0e6e1;
+  margin-top: 20px;
+}
+
+
+/*  Nyheds brev styling **/
+.nyhedsbrev {
+  padding-top: 40px;
+  width: 100%;
+  height: 400px;
+  display: block;
+  text-align: center;
+  background-color: #929695;
+}
+
+.nyhedsbrev h1 {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #f0e6e1;
+
+
+}
+
+.nyhedsbrev div {
+  margin: 0 auto 20px;
+  width: 70vw;
+  height: auto;
+  border: 1px solid #f0e6e1;
+  border-radius: 50%;
+
+}
+
+
+
+.email {
+}
+
+.navn {
+  padding: 8px;
+  margin: 15px auto;
+  display: block;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.mail {
+    padding: 8px;
+    margin: 15px auto;
+    display: block;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.tilmeld {
+  font-family: 'Roboto';
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  color: #667d7a;
+  background-color: #f0e6e1;
+
+}
+
+.desktoppic {
+  display: none;
+}
+
+
+
+
+@media screen and (min-width: 1100px) {
+/** Underside CSS **/
+
+
+  article {
+      height: 185px;
+  }
+
+  .knap {
+    margin: 0 auto;
+  }
+
+  .info1 {
+    height: 70vh;
+
+  }
+
+  .info1 img {
+    padding: 15px 25px 50px 25px;
+    float: left;
+  }
+
+  .info1 p {
+    display: inline-block;
+    width: 55%;
+
+  }
+
+  .info1 div {
+    width: 60%;
+  }
+
+  .info2 {
+    background-color: #f0e6e1;
+    height: 55vh;
+  }
+
+
+  .info2 img {
+    display: block;
+    padding: 15px 25px 50px 25px;
+    float: left;
+  }
+
+  .info2 p {
+    display: inline-block;
+    width: 55%;
+  }
+
+
+/* Underside CSS SLUT **/
+
+.mobilvideo {
+    display: none;
+}
+
+.desktopmenu {
+  display: block;
+}
+
+.wrapper {
+  visibility: hidden;
+  display: none;
+}
+
+p {
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+
+aside {
+  padding-top: 0;;
+  display: inline-block;
+  width: 50%;
+  height: 400px;
+  float: left;
+  text-align: center;
+  background-color: #929695;
+}
+
+
+aside div {
+
+  margin: 0 auto 40px;
+  width: 25vw;
+  border: 1px solid #f0e6e1;
+  border-radius: 50%;
+}
+
+aside p {
+  font-size: 20px;
+  margin-top: 5px;
+  padding-top: 0;
+  padding-bottom: 10px;
+  color: white;
+  text-align: center;
+}
+
+aside h2 {
+  font-weight: lighter;
+  font-size: 20px;
+  color: black;
+  margin: 0 auto;
+  width: 25vw;
+  text-align: center;
+}
+
+
+.nyhedsbrev {
+  padding-top: 0;
+  width: 50%;
+  float: right;
+}
+
+
+.nyhedsbrev div {
+  margin: 0 auto 40px;
+  width: 25vw;
+}
+
+.navn {
+  padding: 10px 48px;
+  margin: 5px auto 20px;
+
+}
+
+.mail {
+  padding: 10px 48px;
+  margin: 15px auto 20px;
+
+}
+
+.tilmeld {
+  margin: 5px auto 0;
+  display: block;
+
+}
+.desktoppic {
+      display: block;
+      border: 30px solid #f0e6e1;
+      height: 55%;
+      width: 55%;
+      margin: auto;
+}
+
+section {
+  width: 50%;
+  float: left;
+
+}
+
+section div {
+  width: 60%;
+}
+
+section p {
+  margin: 0 auto;
+
+}
+
+
+figure {
+  padding-top: 40px;
+  display: block;
+  width: 49%;
+  float: left;
+}
+
+figure img {
+
+  display: none;
+}
+
+
+
+.food {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  height: 93vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('../img/ffood1.jpeg');
+}
+
+
+
+
+footer {
+  height: 100px;
+}
+
+
+footer p {
+  padding-top: 38px;
+}
+
+
+#page2 {
+  height: 100vh;
+}
+
+#page1 {
+  background-color: #f0e6e1;
+  background-image: none;
+  height: 92vh;
+}
+
+#page1 img {
+  display: none;
+}
+
+#page1 h1 {
+  display: none;
+}
+
+#page1 object {
+  display: none;
+}
+
+#page1 i {
+  display: none;
+}
+
+#page3 {
+  height: 120vh;
+}
+
+#video-background {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
+  z-index: -100;
+  border-bottom: 3px solid #667d7a;
+  border-right: 3px solid #667d7a;
+  border-left: 3px solid #667d7a;
+}
+
+.mangomartin {
+  width: 33%;
+  padding-top: 40px;
+  margin: 0;
+  float: left;
+}
+
+.desktop {
+  border: 10px solid #929695;
+  width: 80%;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+
+
+.mangomartin p {
+  width: 80%;
+  display: block;
+  padding: 20px 0 0 0;
+}
+
+.mangomartin h3 {
+  letter-spacing: 6px;
+}
+
+.split1 {
+  background-color: #f0e6e1;
+}
+
+header {
+  height: auto;
+  font-family: helvetica;
+}
+
+header img {
+  padding-left: 50px;
+  display: block;
+  height: auto;
+  float: left;
+  position: relative;
+}
+
+header div nav {
+  height: 50px;
+  width: auto;
+  float: right;
+  margin-right: 70px;
+}
+header div nav a {
+  text-transform: uppercase;
+  color: #cecccc;
+  display: block;
+  float: left;
+  padding: 15px 25px 13px 25px;
+  /* background-color: #717e79; */
+  line-height: 50px;
+}
+
+header div nav a:hover {
+  color: #f0e6e1;
+
+}
+
+.active {
+  background-color: #6F8784;
+}
+
+
+}
+
+
+
+@media screen and (min-width: 1451px) {
+
+.info1 {
+    height: 60vh;
+
+  }
+
+.mobilvideo {
+    display: none;
+  }
+
+.desktopmenu {
+  display: block;
+}
+
+.wrapper {
+  visibility: hidden;
+  display: none;
+}
+
+
+figure img {
+
+  display: none;
+}
+
+
+
+.food {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  height: 93vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('../img/ffood1.jpeg');
+}
+
+
+#page3 {
+  height: 100vh;
+}
+
+
+
+#video-background {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
+  z-index: -100;
+  border-bottom: 3px solid #667d7a;
+  border-right: 3px solid #667d7a;
+  border-left: 3px solid #667d7a;
+}
+
+
+}
