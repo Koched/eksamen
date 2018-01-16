@@ -216,7 +216,6 @@ video {
   padding-top: 78px;
   display: block;
   width: 100%;
-  height: 1200px;
   background-color: #929695;
 }
 
@@ -224,6 +223,25 @@ video {
   color: black;
 }
 
+#mission {
+  padding: 0;
+  margin: 50px 0;
+  display: inline-block;
+  color: #f0e6e1;
+  font-style: italic;
+  text-align: center;
+  font-size: 25px;
+}
+
+#vission {
+  padding: 0;
+  margin: 50px 0;
+  display: inline-block;
+  color: #929695;
+  font-style: italic;
+  text-align: center;
+  font-size: 25px;
+}
 
 .knap {
   margin: 40px auto;
@@ -679,9 +697,6 @@ footer p {
 }
 
 
-#page2 {
-  height: 100vh;
-}
 
 #page1 {
   background-color: #f0e6e1;
